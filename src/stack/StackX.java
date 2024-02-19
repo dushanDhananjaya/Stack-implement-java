@@ -57,5 +57,16 @@ public class StackX {
 		}
 	}
 	
+	public void printStack() {
+		if(isEmpty()) {
+			System.out.println("stack is empty");
+		} else {
+			
+			while(top != -1) {
+				System.out.println(stackArray[top--]);
+			}
+		}
+	}
+	
 	
 }
