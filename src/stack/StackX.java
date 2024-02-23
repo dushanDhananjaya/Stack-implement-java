@@ -49,14 +49,6 @@ public class StackX {
 		return (top == (maxSize - 1));
 	}
 	
-	public void print() {
-		if(top == -1) {
-			System.out.println("stack is empty");
-		} else {
-			
-		}
-	}
-	
 	public void printStack() {
 		if(isEmpty()) {
 			System.out.println("stack is empty");
